@@ -47,7 +47,7 @@ function Header() {
                 />
               </svg>
             </a>
-            <div class="hidden ml-10 space-x-8 lg:block">
+            <div className="hidden ml-10 space-x-8 lg:block">
               <a href="#" className="text-base font-medium">
                 Buy
               </a>
