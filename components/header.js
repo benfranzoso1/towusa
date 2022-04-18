@@ -6,7 +6,7 @@ function Header() {
   return (
     <header className="">
       <nav
-        className="fixed bg-white z-50 w-full left-0 top-0 right-0 p-0"
+        className="fixed bg-white z-50 w-full left-0 top-0 right-0 p-0 shadow"
         aria-label="Top"
       >
         <div className="w-full py-4 flex items-center justify-between block max-w-7xl  mx-auto px-4 sm:px-6 lg:px-8">

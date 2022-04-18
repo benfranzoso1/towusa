@@ -2,7 +2,7 @@ import Image from "next/image";
 import towBg from "../public/towheader.jpeg";
 import { LocationMarkerIcon } from "@heroicons/react/solid";
 
-export default function TruckCard({ truck }) {
+export default function TruckCard({ year, make, model }) {
   return (
     <div className="relative  w-64 snap-center bg-white sm:rounded-lg border border-slate-300 ">
       <div className="relative w-full  rounded-t-lg h-60  aspect-w-1 aspect-h-1  overflow-hidden group-hover:opacity-75 lg:h-60 lg:aspect-none">
@@ -18,7 +18,9 @@ export default function TruckCard({ truck }) {
       </div>
       <div className="flex flex-col  p-4 gap-3">
         <div>
-          <span className="text-lg font-medium">{truck}</span>
+          <span className="text-lg font-medium">
+            {year} {make} {model}
+          </span>
         </div>
         <div className="flex flex-col gap-4">
           <div className="flex gap-4">
